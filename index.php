@@ -92,7 +92,7 @@
                     <div class="col-md-3" style="float: left;">
                         <form method="post" action="index.php?action=add&id=<?php echo $row["id"];?>">
                             <div class="product">
-                                <img src="<?php echo $row["image"];?>" width="190px" height="200px" class="img-responsive">
+                                <img src="./img/<?php echo $row["image"];?>" width="190px" height="200px" class="img-responsive">
                                 <h5 class="text-info"><?php echo $row["description"];?></h5>
                                 <h5 class="text-danger"><?php echo $row["price"];?></h5>
                                 <input type="text" name="quantity" class="form-control" value="1">
